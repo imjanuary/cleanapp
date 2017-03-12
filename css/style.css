@@ -1,0 +1,446 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0;padding:0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style-type:none;
+}
+
+li {
+  list-style-type:none;
+}
+
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+a {
+	color: #ffffff;
+	
+}
+
+a:hover {
+	color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: none;
+}
+
+div {
+	display: block;
+	text-align: center;
+	margin: auto;	
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	background-color: #0B0912;
+}
+
+/* basic */
+
+
+
+#login {
+	background-image: url(../images/login/bg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	min-height: 700px;
+	min-width: 960px;
+	
+}
+
+#attack {
+	background-image: url(../images/attack/bg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	min-height: 700px;
+	min-width: 960px;
+}
+
+#attack_end {
+	background-image: url(../images/attack/bg_end.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	min-height: 700px;
+	min-width: 960px;
+	
+}
+
+#ranking {
+	background-image: url(../images/ranking/bg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	min-height: 700px;
+	min-width: 960px;
+	
+}
+
+#report {
+	background-image: url(../images/report/bg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	min-height: 700px;
+	min-width: 960px;
+	
+}
+
+#profile {
+	background-image: url(../images/profile/bg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	min-height: 700px;
+	min-width: 960px;
+	
+}
+
+button {
+	display: block;
+ 	background-image: none;
+	background-color: rgba(230,0,18,1);
+	border: 0;
+	border-radius: 2px;
+	font-size: 14px;
+	color: rgba(255,255,255,1);
+	width: 240px;
+	height: 40px;
+	margin: 10px auto;
+	outline: 0;
+	padding: 0;
+	transition: background-color,color, 0.3s;
+
+}
+
+button:hover {
+	background-color: rgba(0,160,233,1);
+
+}
+
+input {
+	display: block;
+ 	background-image: none;
+	background-color: rgba(140,151,203,0.1);
+	outline: none;
+    border: none;
+	border-radius: 2px;
+	text-align: center;
+	font-size: 14px;
+	color: rgba(200,200,240,0.5);
+	width: 240px;
+	height: 40px;
+	margin: 10px auto;
+	padding: 0;
+	transition: background-color,color, 0.3s;
+}
+
+input:hover {
+	background-color: rgba(140,151,203,0.3);
+	color: rgba(255,255,255,1);
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: rgba(200,200,240,0.5);
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: rgba(200,200,240,0.5);
+   
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: rgba(200,200,240,0.5);
+   
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: rgba(200,200,240,0.5);
+}
+
+.header {
+	position: relative;
+	width:100%;
+	border:1px solid rgba(30,35,70,1);
+	min-height: 62px;
+	max-height: 62px;
+	min-width: 960px;
+	font-size: 14px;
+	font-weight: 900;
+	background-color: rgba(30,35,70,0.6);
+}
+
+
+.nav_ul {
+	display: inline-block;
+	width: 180px;
+	height: 60px;
+	padding-top: 25px;
+	text-shadow: 0px 2px 3px rgba(5,5,5,0.5);
+	letter-spacing:2px;
+	color: rgba(255,255,255,0.5); 
+	background-image: url(../images/login/navbuttonoff.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: background-image,color, 0.3s;
+
+}
+
+.nav_ul:hover {
+	background-image: url(../images/login/navbutton.png);
+	background-size: cover;
+	color: rgba(255,255,255,1); 
+}
+
+.nav_current {
+	display: inline-block;
+	width: 180px;
+	height: 60px;
+	padding-top: 25px;
+	text-shadow: 0px 2px 3px rgba(5,5,5,0.5);
+	letter-spacing:2px; 
+	background-image: url(../images/login/navbutton.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.nav_ul_ky {
+	display: inline-block;
+	width: 180px;
+	height: 60px;
+	padding-top: 25px;
+	text-shadow: 0px 2px 3px rgba(5,5,5,0.5);
+	font-size: 16px;
+	font-weight: 900;
+	letter-spacing:2px;
+	letter-spacing:2px;
+	background-image: url(../images/login/kinkyu.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-shadow: 0px 0px 20px rgba(5,5,5,1);
+	transition: background-image,color, 0.3s;
+}
+
+.nav_ul_ky:hover {
+	background-image: url(../images/login/kinkyuon.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+.loginlogo {
+	height: 255px;
+	text-align: center;
+	
+}
+.mine {
+	margin-top: 30px;
+	text-align: center;
+	
+}
+
+.text {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 150%;
+	letter-spacing:2px;
+	color: #ffffff;
+	text-shadow: 0px 2px 5px rgba(5,5,5,0.5);
+	
+	
+}
+
+.minecard {
+	margin-top: 50px; 
+	text-align: center;
+	
+}
+
+.minecard_attack {
+	margin-top: 50px; 
+	text-align: center;
+}
+
+.minecard_card {
+	background-image: url(../images/report/vs.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	min-width: 960px;	
+}
+
+.minecard_open {
+	position: relative;
+	display: inline-flex;
+
+}
+
+.minecard_span {
+	position: absolute;
+	margin-left: 180px; 
+	margin-top: 230px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 150%;
+	letter-spacing:2px;
+	color: #ffffff;
+	text-shadow: 0px 2px 5px rgba(5,5,5,0.5);
+
+}
+
+.minecard_nom {
+	position: absolute;
+	margin-left: 175px; 
+	margin-top: 135px;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 150%;
+	letter-spacing:2px;
+	color: #ffffff;
+	text-shadow: 0px 2px 5px rgba(5,5,5,0.5);
+
+}
+
+
+
+.mineboard {
+	position: relative;
+	display: inline-flex;
+	margin-top: 5px; 
+	text-align: center;
+}
+
+.minecard_ranking {
+	position: absolute;
+	margin-left: 145px; 
+	margin-top: 120px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing:2px;
+	color: #ffffff;
+	text-shadow: 0px 2px 5px rgba(5,5,5,0.5);
+
+}
+
+.minecard_ranking span {
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+}
+
+.minecard_ranking ul {
+	height: 320px;
+	overflow: auto;
+}
+
+
+
+.minecard_profile {
+	position: absolute;
+	margin-left: 180px; 
+	margin-top: 150px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing:2px;
+	color: #ffffff;
+	text-shadow: 0px 2px 5px rgba(5,5,5,0.5);
+}
+
+.minecard_profile p {
+	margin-top: 50px;
+	text-align: center;
+	font-size: 12px;
+	font-weight: 100;	
+}
+.footer {
+	position: absolute;
+	top: 630px;
+	bottom: 15px;
+	width: 100%;
+	font-size: 10px;
+	color: rgba(255,255,255,0.3);
+	text-align: center;
+	min-width: 960px;
+	transition: background-color,color, 0.3s;
+}
+
+.footer:hover {
+	color: rgba(255,255,255,0.5);
+
+}
+
+.footer_text {
+	width: 100%;
+	font-size: 10px;
+	color: rgba(255,255,255,0.3);
+	text-align: center;
+	transition: background-color,color, 0.3s;
+}
+
+.footer_text:hover {
+	color: rgba(255,255,255,0.5);
+
+}
+
+#adminlogin {
+	display: block;
+	background-color: rgba(30,30,136,0.0);
+	border-radius: 2px;
+	border:1px solid;
+	color: rgba(200,200,240,0.1);
+	font-size: 12px;
+	text-align: center;
+	width: 240px;
+	height: 40px;
+	margin: 10px auto;
+	padding: 0;
+	transition: background-color,color,border, 0.3s;
+
+}
+
+#adminlogin:hover {
+	background-color: rgba(30,30,136,0.5);
+	color: rgba(200,200,240,0.8);
+	border:0px;
+}
+
